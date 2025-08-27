@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h4>JSTL Test : forEach</h4>
+	<h4>JSTL Test : c:forEach, c:set, fn:length, fn:replace</h4>
 	
 	<c:set var="count" value="${fn:length(list) }" />
 	<ul>
